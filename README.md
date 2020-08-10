@@ -20,6 +20,10 @@
   <a href="https://travis-med-ai.github.io/contributing/how-to-contribute/">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
+  <a href="https://badge.fury.io/py/medaimodels"><img src="https://badge.fury.io/py/medaimodels.svg" alt="PyPI version"></a>
+    <a href="https://travis-med-ai.github.io/med-ai-models">
+    <img src="https://github.com/Travis-Med-AI/med-ai-models/workflows/Documentation/badge.svg" alt="Documentation" />
+  </a>
 </p>
 
 <h3 align="center">
