@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Welcome to No Errors Test Project’s documentation! &#8212; No Errors Test Project  documentation</title>
+    <title>Med AI Documentation &#8212; Travis Med Ai  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -30,10 +30,79 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="welcome-to-no-errors-test-project-s-documentation">
-<h1>Welcome to No Errors Test Project’s documentation!<a class="headerlink" href="#welcome-to-no-errors-test-project-s-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="med-ai-documentation">
+<h1>Med AI Documentation<a class="headerlink" href="#med-ai-documentation" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+</div>
+<div class="section" id="module-medaimodels">
+<span id="medaimodels"></span><h1>MedAiModels<a class="headerlink" href="#module-medaimodels" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="medaimodels.ModelMain">
+<em class="property">class </em><code class="sig-prename descclassname">medaimodels.</code><code class="sig-name descname">ModelMain</code><a class="headerlink" href="#medaimodels.ModelMain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for the main.py file in med ai models
+Args:</p>
+<p>Attributes:</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="medaimodels.ModelOutput">
+<em class="property">class </em><code class="sig-prename descclassname">medaimodels.</code><code class="sig-name descname">ModelOutput</code><span class="sig-paren">(</span><em class="sig-param">image=None</em>, <em class="sig-param">class_probabilities=None</em>, <em class="sig-param">mask=None</em>, <em class="sig-param">display=''</em><span class="sig-paren">)</span><a class="headerlink" href="#medaimodels.ModelOutput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Output for a single study.
+:param image: A path to dicom images.
+:type image: str
+:param class_probabilities: Dictionary of key value pairs of diagnoses and probability that this diagnosis matches the image.
+:type class_probabilities: dict
+:param mask: A path to a numpy mask.
+:type mask: str
+:param display: A summary of the outpuer
+:type display: str</p>
+<dl class="attribute">
+<dt id="medaimodels.ModelOutput.image">
+<code class="sig-name descname">image</code><a class="headerlink" href="#medaimodels.ModelOutput.image" title="Permalink to this definition">¶</a></dt>
+<dd><p>A path to dicom images.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="medaimodels.ModelOutput.class_probabilities">
+<code class="sig-name descname">class_probabilities</code><a class="headerlink" href="#medaimodels.ModelOutput.class_probabilities" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dictionary of key value pairs of diagnoses and probability that this diagnosis matches the image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="medaimodels.ModelOutput.mask">
+<code class="sig-name descname">mask</code><a class="headerlink" href="#medaimodels.ModelOutput.mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>A path to a numpy mask.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="medaimodels.ModelOutput.display">
+<code class="sig-name descname">display</code><a class="headerlink" href="#medaimodels.ModelOutput.display" title="Permalink to this definition">¶</a></dt>
+<dd><p>A summary of the outpuer</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
 </div>
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
@@ -51,7 +120,7 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="#">No Errors Test Project</a></h1>
+<h1 class="logo"><a href="#">Travis Med Ai</a></h1>
 
 
 
@@ -92,7 +161,7 @@
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2019, sphinx-action Test Suite.
+      &copy;2020, Jacob Clarke Travis Clarke.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
