@@ -1,3 +1,8 @@
+from typing import List
+
+
+__version__ = "0.1.0"
+
 class ModelOutput():
     """Output for a single study.
     Args:
@@ -29,3 +34,19 @@ class ModelOutput():
         """
 
         return self.display
+
+
+class ModelMain():
+    """ Class for the main.py file in med ai models
+    Args:
+
+    Attributes:
+
+    """
+    model = None
+
+    def evaluate_model(self, files: List[str]) -> List[ModelOutput]:
+        pass
+
+    def load_model(self):
+        pass
